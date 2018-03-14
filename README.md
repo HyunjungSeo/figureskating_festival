@@ -1,1 +1,0 @@
-# figureskating_festival
