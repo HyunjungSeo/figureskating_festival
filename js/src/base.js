@@ -5,7 +5,7 @@
 var wrap = $('#wrap');
 
 // 불러올 파일 목록 만들기 
-var baseUrl = './src/';
+var baseUrl = 'https://hyunjungseo.github.io/figureskating_festival/html/src/';
 var loadFile = {
 	headBox:baseUrl + 'headBox.html',
 	mainBox:baseUrl + 'mainBox.html',
