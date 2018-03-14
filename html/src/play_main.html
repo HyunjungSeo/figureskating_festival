@@ -1,0 +1,130 @@
+<!-- play_main.html -->
+<section id="play_main">
+  <div id="playPaper">
+    <div id="formBox">
+      <div id="formArea">
+        <div id="formShare">
+        <!-- form_deco -->
+          <ul id="table_deco">
+            <li><div>
+              <span class="hidden">성명</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">생년월일</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">연락처</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">메일주소</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">체험종류선택</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">체험시간선택</span>
+            </div></li>
+            <li><div>
+              <span class="hidden">체험목적</span>
+            </div></li>
+          </ul>
+        <!-- // form_deco -->
+        <!-- play_form -->
+          <div id="play_table">
+            <form action="" method="post">
+              <fieldset>
+                <legend class="hidden">체험신청서 작성하기</legend>
+                <ul>
+                  <li class="play_name">
+                    <input type="text" id="username" name="username" value="" placeholder=" 이름">
+                    <label for="username" class="hidden">참가자의 성명을 작성하세요</label>
+                  </li>
+                <!-- username -->
+                  <li class="birthday">
+                    <input type="text" id="year" name="year" value="" placeholder=" 생년">
+                    <label for="year" class="hidden">참가자의 태어난 해를 작성하세요</label>
+                <!-- 생년 -->
+                    <input type="text" id="month" name="month" value="" placeholder="월">
+                    <label for="month" class="hidden">참가자의 태어난 월을 작성하세요</label>
+                 <!-- 월 -->
+                    <input type="text" id="day" name="day" value="" placeholder="일">
+                    <label for="day" class="hidden">참가자의 태어날 날을 작성하세요</label>
+                 <!-- 일 -->
+                  </li>
+                  <li class="tel_num">
+                    <input type="text" id="telnum" name="telnum" value="" placeholder=" 연락처">
+                    <label for="telnum" class="hidden">참가자의 연락처를 작성하세요</label>
+                  <!-- 연락처 -->
+                  </li>
+                  <li class="email_ad">
+                    <input type="email" id="mailad" name="mailad" value="" placeholder=" 메일주소">
+                    <label for="mailad" class="hidden">참가자의 메일주소를 골뱅이 형식으로 작성하세요</label> 
+                <!-- 메일주소 -->
+                  </li>
+                  <li class="playselec">
+                    <select id="playselec" name="playselec">
+                      <option>체험을 선택하세요.</option>
+                      <option value="피겨스케이팅 체험(입문반)">피겨스케이팅 체험(입문반)</option>
+                      <option value="피겨스케이팅 체험(전문반)">피겨스케이팅 체험(전문반)</option>
+                    </select>
+                    <label for="playselec" class="hidden">참가할 체험을 선택하세요</label>
+                <!-- 체험선택 -->
+                  </li>
+                  <li class="playdate">
+                    <select name="playdate" id="playdate">
+                      <option>체험날짜</option>
+                      <option value="2018년1월20일(토)">
+                        2018년1월20일(토)
+                      </option>
+                      <option value="2018년1월21일(일)">
+                        2018년1월21일(일)
+                      </option>
+                    </select>
+                    <select name="playtime" id="playtime">
+                      <option>체험시간</option>
+                      <option value="11시">11시</option>
+                      <option value="12시">12시</option>
+                      <option value="1시">1시</option>
+                      <option value="3시">3시</option>
+                      <option value="5시">5시</option>
+                    </select>
+                 <!-- 날짜시간선택 -->
+                  </li>
+                  <li class="play_purs">
+                    <input type="text" id="purpose" name="purpose" value="" placeholder=" 참가목적">
+                    <label for="purpose" class="hidden">행사에 참가하는 상세한 목적을 작성하세요.</label>
+                  </li>
+            <!-- 참가목적 -->
+                </ul>
+                <p>&lowast; 참가신청 확인서는 작성하신 메일로 발송됩니다.</p>
+                <div class="send_btn">
+                  <button type="submit" name="" >참가신청</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        <!--// play_form -->
+        </div>
+      </div>
+     </div>
+    </div>
+  <div id="playMore">
+    <a href="#play_guide">
+      <br /><br />
+      신청안내 자세히 보기 
+      <br />
+      <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+    </a>
+  </div>
+  <!-- topBtn -->
+  <div id="topBtn">
+    <a href="#"><br />
+      <i class="fa fa-angle-double-up" aria-hidden="true"></i><br />TOP
+    </a>
+  </div>
+  <!-- // topBtn -->
+</section>
+<!-- script -->
+<script src="../../js/src/play_main.js"></script>
+<!--// script -->
+<!--// play_main.html -->

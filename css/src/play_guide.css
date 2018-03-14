@@ -1,0 +1,10 @@
+/* play_guide.css */
+#play_guide{width: 960px; height: auto; background-color: #f0faff; padding: 120px 0; box-sizing: border-box;}
+.play_icon{width: 120px; height: 120px; background-color: #55bcc9; border-radius: 50%; box-shadow: 0.2rem 0.2rem 0.3rem rgba(50,50,50,0.5);}
+  .play_icon>i{width: 100%; height: 100%; color:#fff; font-size: 70px; text-align: center; line-height: 130px; margin-left: 5px;}
+  #play_guide>div:nth-of-type(2){width: 100%; height: 32px; font-size: 30px; color:#002d78; margin-top: 10px; font-weight: bold; letter-spacing: -1px; font-stretch: ultra-condensed;}
+.play_info_area{width: 100%; height: auto; margin-top: 100px;}
+  .small_head{width: 100%; height: 40px; color:#002d78; font-weight: bold; letter-spacing: -2px; font-size: 28px;}
+  .cen_line{width: 100px; height: 1px; background-color: #777; margin-top: 30px;}
+  .play_text{width: 100%; height: auto; color:#555; line-height: 30px; margin-top: 25px;}
+/* // play_guide.css */

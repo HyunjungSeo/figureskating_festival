@@ -1,0 +1,12 @@
+/* footBox.css */
+#footBox{width: 960px; height: 170px; background-color: #fff; padding: 70px 50px 20px; box-sizing: border-box; margin: 0 auto;}
+#footnav{width: 100%; height: 80px;}
+.sub_logo{width: 40px; height: 80px; margin:0 30px; float: left; background-image: url(../../img/new_logo_gray.png); background-size: contain; background-repeat: no-repeat;}
+.ad_wrap{width: 760px; height: 100%; float: left;}
+  .ad_costomer{width: 100%; height: 20px; margin-top: 10px;}
+    .ad_costomer>li{width: auto; height: 100%; float: left; text-align: center; padding: 0 20px; border-right: 1px solid #999;}
+  .ad_company{width: 100%; height: 20px; margin-top: 10px;}
+    .ad_company>li{width: auto; height: 100%; float: left; text-align: center; padding: 0 25px; border-right: 1px solid #999;}
+
+.ad_wrap li:last-child{border-right: 0;}
+/* // footBox.css */

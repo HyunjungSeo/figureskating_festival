@@ -1,0 +1,51 @@
+/* play_main.css */
+#play_main{width: 100%; height: 720px;}
+  #playPaper{width: 100%; height: 600px; background-image: url(../../img/back_opacity_01.jpg); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat;}
+    #formBox{width: 700px; height: 100%; margin: 0 auto;}
+      #formArea{width: 100%; height: 500px; background-color: rgba(255,255,255,0.7); margin-top: 50px; float: left;}
+        #formShare{width: 500px; height: 280px; margin-left: 100px;margin-top: 60px;}
+        p{color:#002d78; margin-top: 30px; font-size: 14px;}
+        .send_btn{width: 150px; height: 30px; margin-top: 15px; margin-left: 135px;}
+        .send_btn>button{width: 100%; height: 100%; background-color: #002d78; color:#fff; font-weight: bold;}
+/* deco */
+          #table_deco{width: 20px; height: 100%; float: left;}
+            #table_deco>li{width: 9px; height: 40px;border-right: 1px dashed #555;}
+            #table_deco>li>div{display: block; width: 20px; height: 20px;background-color: #002d78; border-radius: 50%; margin-top: 8px; float: left;}
+/* // deco */
+/* form area */
+          #play_table{width: 450px; height: 100%; float: left; margin-left: 20px;}
+          fieldset>ul{width: 100%; height: 100%;}
+            fieldset>ul>li{width: 100%; height: 40px;}
+              .play_name>input{width: 100%; height: 30px; background-color: transparent; border-bottom: 1px solid #777;}
+              /* 이름 */
+              .birthday>input{width: 30%; height: 30px ;margin-right: 5%; background-color: transparent; border-bottom: 1px solid #777; float: left;}
+              .birthday>input:last-of-type{margin-right: 0;}
+              /* 생년월일 */
+              .tel_num>input{width: 100%; height: 30px; background-color: transparent; border-bottom: 1px solid #777;}
+              /* 연락처 */
+              .email_ad>input{width: 100%; height: 30px; background-color: transparent; border-bottom: 1px solid #777;}
+              /* 이메일 */
+              .playselec>select{width: 100%; height: 30px; background-color: transparent; border-bottom: 1px solid #777; color:#777;}
+              .playselec>select>option{color:#333;}
+              /* 체험종류선택 */
+              .playdate>select{width: 215px; height: 30px; background-color: transparent; border-bottom: 1px solid #777; color:#777; margin-right: 20px; float: left;}
+              .playdate>select:last-of-type{margin-right: 0;}
+              .play_purs>input{width: 100%; height: 30px; background-color: transparent; border-bottom: 1px solid #777; color:#777;}
+/* // form area */
+/* play more move*/
+  #playMore{width: 100%; height: 120px; background-color: #002d78;}
+    #playMore>a{display: block; width: 100%; height: 100%; text-align: center; color:#fff; font-size: 1.2rem;}
+
+  /*topBtn*/
+  #topBtn{width: 80px; height: 80px; background-color: #002d78; position: fixed; left:50%; margin-left: 520px; bottom:20px;}
+  #topBtn>a{display: block; width: 100%; height: 100%; color:#fff;}
+      
+  /*figureicon*/
+#figureMove{width: 100%; height: 50px; position: fixed; z-index: 1000; bottom:0;}
+    .figu_ilu{width: 50px; height: 50px; background-image: url(../../img/figure-Icon.png); -webkit-background-size: contain; background-size: contain; background-repeat: no-repeat;}
+    .figu_ilu{animation-name: ilust; animation-duration: 15s; animation-iteration-count: infinite; animation-direction:alternate; position:fixed; bottom:0; animation-timing-function: linear;}
+        @keyframes ilust{
+          0% {transform:rotateY(0); left:-5%;}
+          50% {transform: rotateY(1turn);}
+          100% {transform:rotateY(2turn); left:105%;}}
+/* // play_main.css */

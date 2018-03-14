@@ -1,0 +1,12 @@
+/* map_subway.css */
+#map_subway{width: 960px; height: 900px; background-color: #fff; padding: 70px 0; box-sizing: border-box;}
+.subway_icon{width: 120px; height: 120px; background-color: #55bcc9; border-radius: 50%; box-shadow: 0.2rem 0.2rem 0.3rem rgba(50,50,50,0.5);}
+  .subway_icon>i{width: 100%; height: 100%; color:#fff; font-size: 60px; text-align: center; line-height: 120px;}
+  #map_subway>div:nth-of-type(2){width: 100%; height: 32px; font-size: 30px; color:#002d78; margin-top: 10px; font-weight: bold; letter-spacing: -1px; font-stretch: ultra-condensed;}
+
+  #map_subway>div:nth-of-type(3){width: 100px; height: 1px; background-color: #777; margin-top: 40px;}
+  #map_subway>p{width: 100%; height: auto; color:#555; line-height: 30px; margin-top: 40px; font-weight: bold;}
+  .subway_1{display: inline-block; width: 18px; height: 18px; background-image: url(../../img/line_1.png); background-repeat: no-repeat; background-size: cover; }
+  .subway_2{display: inline-block; width: 18px; height: 18px; background-image: url(../../img/line_2.png); background-repeat: no-repeat; background-size: cover; }
+  .subway_table{width: 100%; height: 400px; background-image: url(../../img/subway_map.JPG); background-size: cover; background-repeat: no-repeat;}
+/* // map_subway.css */
