@@ -5,7 +5,7 @@
 var wrap = $('#wrap');
 
 // 불러올 파일 목록 만들기 
-var baseUrl = '../../html/src/';
+var baseUrl = './html/src/';
 var loadFile = {
 	headBox:baseUrl + 'headBox.html',
 	schedule_main:baseUrl + 'schedule_main.html',
