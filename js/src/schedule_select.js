@@ -10,7 +10,7 @@ var tabContentLi = tabContent.children('li');
 tabLi.on('click',function(evt){
 	evt.preventDefault();
 	var myBtn = $(this).index();
-	console.log(myBtn);
+
 //tab메뉴 버튼에서 지정한 class이름 select를 일단 삭제
 	tabLi.removeClass('select');
 	//선택된 몇번째? 확인 후 li에 class이름 select를 지정
